@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>File X</title>
+        <link rel="stylesheet" type="text/css" href="hyphen.css">
+        <link rel="stylesheet" type="text/css" href="cssc.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src = 'jquery-1.3.2.min.js'></script>
+    </head>
+    <body>
+        <script src = 'page.js'></script>
+        <div id = 'tot'><!-- Index of Div -->
+            <div id = 'head'><!-- head part of div -->
+                <div class="grid"><!-- Start of the head session -->
+    			           <div class="grid__item grid__item--10">
+    				               <p>Create Quote</p>
+    			           </div>
+    			           <div class="grid__item grid__item--2">
+    				               <p>
+    					                 <button class="btn btn--tertiary btn--small btn--round">Cancel</button>
+    					                 <button class="btn btn--success btn--small btn--round">Save</button>
+    				               </p>
+    			           </div>
+    		        </div>
+    		        <hr color = white>
+    		        <div class="grid" id = 'text'>
+    			           <div class="grid__item grid__item--5">
+    					                <h4 id = 'button'>Quote Details</h4>
+    			           </div>
+    			           <div class="grid__item grid__item--5" >
+    					                <h4 id = 'button1'>Additional Details</h4>
+    			           </div>
+    			           <div class="grid__item grid__item--1" >
+    					                <h4 id = 'button2'>Note To</h4>
+    			           </div>
+    		        </div><!-- End of anchor tag -->
+            </div><!--End of Head -->
+
+            <div id = 'body'><!-- Div body start -->
+
+                <!--Quote info -->
+                <div id = 'div1'>
+            		    <center>
+            			       <div class="grid">
+            				        <div class="grid__item grid__item--12">
+            					             <p>Quote details</p>
+            				        </div>
+            			       </div>
+            		    </center>
+                    <div class="grid">
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Quote Name:</label>
+            				           <input id = 'layout1' type="text" class="input" placeholder="Enter Quote Name"/>
+            			       </div>
+            		         <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Customer Name*:</label>
+            				           <input id = 'layout1' type="text" class="input" placeholder="Enter Customer Name"/>
+            			       </div>
+            		    </div>
+                    <div class="grid">
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">DeliverGoods To*:</label>
+            				           <textarea id = 'layout1' class="input" placeholder="Deliver Goods TO" rows = '4'/></textarea>
+            			       </div>
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Billing To*:</label>
+            				           <textarea id = 'layout1' class="input" placeholder="Billing Goods TO" rows = '4'/></textarea>
+            			       </div>
+            		    </div>
+                    <div class="grid">
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Address verified:</label>
+            				           <i id = 'layout2' class="fa fa-toggle-on"></i>
+            			       </div>
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Order Type:</label>
+            				           <select class="input" id = 'layout1'>
+            					                <option value="1">Order Type</option>
+            					                <option value="2">Amsterdam</option>
+            					                <option value="3">United States</option>
+            				           </select>
+            			       </div>
+            		    </div>
+                    <center>
+            			       <div class="grid">
+            				           <div class="grid__item grid__item--12">
+            					               <button class="btn btn--success btn--round" id = 'button0'>Next</button>
+            				           </div>
+            			       </div>
+            		    </center>
+            	  </div><!-- End of Quote -->
+
+                <!--Additipanl Info -->
+
+                <div id = 'div2'>
+            		    <center>
+            			       <div class="grid">
+            				           <div class="grid__item grid__item--12">
+            					                <p>Additional Information</p>
+            				           </div>
+            			       </div>
+            		    </center>
+                    <div class="grid">
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Payment Terms:</label>
+            				               <select class="input" id = 'layout1'>
+            					                    <option value="1">Payment terms</option>
+            					                    <option value="2">Amsterdam</option>
+            					                    <option value="3">United States</option>
+            				               </select>
+            			       </div>
+            			       <div class="grid__item grid__item--6">
+            				           <label id = 'layout1' class="label">Po Number:</label>
+            				           <input id = 'layout1' type="text" class="input" placeholder="Enter Customer Name"/>
+            			       </div>
+            		    </div>
+                    <div class = 'grid'>
+            			       <div class="grid__item grid__item--6">
+            				           <label class="label" id = 'layout1'>ExpectedDate:</label>
+            				               <div class="input-icon input-icon--right" >
+            					                    <i class="fa fa-calendar input-icon__icon" id = 'layout2'></i>
+            					                    <input type="search" class="input input-icon__input" placeholder="Expected Delivery Date" id = 'layout1'/>
+            				                </div>
+            			       </div>
+            		         <div class="grid__item grid__item--6">
+            				           <label class="label" id = 'layout1'>RequestedDate:</label>
+            				               <div class="input-icon input-icon--right" >
+            					                    <i class="fa fa-calendar input-icon__icon" id = 'layout2'></i>
+            					                    <input type="search" class="input input-icon__input" placeholder="Requested Date" id = 'layout1'/>
+            				               </div>
+            			       </div>
+                         <center>
+            				           <div class="grid">
+                                 <div class="grid__item grid__item--12">
+                                      <button class="btn btn--success btn--round" id = 'button01'>Next</button>
+                                </div>
+            				           </div>
+            			       </center>
+            		      </div><!-- End of Additional info -->
+                </div>
+
+                <!-- Note to -->
+
+                <div id = 'div3'>
+                    <center>
+                       <div class="grid">
+                             <div class="grid__item grid__item--12">
+                                    <p>Note To</p>
+                             </div>
+                       </div>
+                    </center>
+          			    <div class="grid">
+          				         <div class="grid__item grid__item--4">
+          					              <label id = 'layout3' class="label">Customer:</label>
+          					              <textarea id = 'layout3' class="input" placeholder="Customer" rows = '4'/></textarea>
+          				         </div>
+          				         <div class="grid__item grid__item--4">
+          					              <label id = 'layout3' class="label">Back office:</label>
+          					              <textarea id = 'layout3' class="input" placeholder="Back Office" rows = '4'/></textarea>
+          				         </div>
+          				         <div class="grid__item grid__item--4">
+          					              <label id = 'layout3' class="label">carrier:</label>
+          					              <textarea id = 'layout3' class="input" placeholder="Carrier" rows = '4'/></textarea>
+          				         </div>
+          			    </div>
+          			    <div class="grid">
+          				        <div class="grid__item grid__item--12">
+          					             &nbsp
+          				        </div>
+          			    </div>
+          			    <center>
+          				        <div class="grid">
+          					            <div class="grid__item grid__item--12">
+                                        <button class="btn btn--success btn--round" id = 'button02'>Save and Exit</button>
+          					            </div>
+          				        </div>
+          			    </center>
+          		  </div><!-- End of Note To -->
+
+            </div><!-- Div body Ends here -->
+        </div> <!-- Div Index Ends here -->
+    </body>
+</html>
