@@ -1,38 +1,59 @@
 #layout1 {
   width : 300;
-  margin-left : 220;
+  margin-left : 165;
 }
 
 #layout2 {
   float : right;
-  margin-right : 100;
+  margin-right : 153;
 }
 
 #layout3 {
   width : 300;
-  margin-left : 120;
+  margin-left : 50;
 }
 
 #tot {
     height : 100%;
+    overflow: hidden;
+
 }
 #head {
-    height : 30%;
+
+    height : 22%;
     background-color: gray;
+    margin : 10;
+    /*margin-right : 10;*/
+    border : 20;
+    padding :10;
 }
 #body {
+
     height : 70%;
     background-color: lightgray;
+    margin : 10;
+    /*margin-right : 10;*/
+    border : 10;
+    padding :10;
 }
 /*head css file */
-.btn {
-    margin-left : 50;
-}
 #text {
-    margin-left : 100;
-    margin-right : 0;
+    margin-top: 10;
+    margin-left : 70;
+    margin-right : 30;
+}
+.btn {
+  margin-bottom: 5;
+}
+h4 {
+  color : lightgray;
+  margin-top: 0;
+  border-right:0;
 }
 h4:hover {
   color : lightgreen;
 }
 /*End of head file */
+#text {
+  color : lightgray;
+}
